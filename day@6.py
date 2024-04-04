@@ -11,3 +11,4 @@ num = int(input("Enter a number: "))
 
 # Call the reverse_number function and print the result
 print("Reversed number:", reverse_number(num))
+
