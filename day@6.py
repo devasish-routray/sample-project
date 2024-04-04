@@ -1,26 +1,13 @@
-import math
+def reverse_number(num):
+    reversed_num = 0
+    while num > 0:
+        digit = num % 10
+        reversed_num = reversed_num * 10 + digit
+        num = num // 10
+    return reversed_num
 
-def square_area(side):
-    return side * side
+# Ask the user to enter a number
+num = int(input("Enter a number: "))
 
-def rectangle_area(length, width):
-    return length * width
-
-def triangle_area(base, height):
-    return 0.5 * base * height
-if shape == "square":
-    side = float(input("Enter the length of a side: "))
-    print("Area of the square:", square_area(side))
-elif shape == "rectangle":
-    length = float(input("Enter the length: "))
-    width = float(input("Enter the width: "))
-    print("Area of the rectangle:", rectangle_area(length, width))
-elif shape == "triangle":
-    base = float(input("Enter the base length: "))
-    height = float(input("Enter the height: "))
-    print("Area of the triangle:", triangle_area(base, height))
-elif shape == "circle":
-    radius = float(input("Enter the radius: "))
-    print("Area of the circle:", circle_area(radius))
-else:
-    print("Invalid shape entered.")
+# Call the reverse_number function and print the result
+print("Reversed number:", reverse_number(num))
