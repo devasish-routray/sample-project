@@ -1,4 +1,5 @@
-import math
+
+    import math
 
 def square_area(side):
     return side * side
@@ -32,4 +33,5 @@ elif shape == "circle":
     print("Area of the circle:", circle_area(radius))
 else:
     print("Invalid shape entered.")
+    
 
