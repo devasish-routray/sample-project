@@ -1,5 +1,4 @@
-
-    import math
+import math
 
 def square_area(side):
     return side * side
