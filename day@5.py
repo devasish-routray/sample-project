@@ -22,6 +22,7 @@ if shape == "square":
 elif shape == "rectangle":
     length = float(input("Enter the length: "))
     width = float(input("Enter the width: "))
+    
     print("Area of the rectangle:", rectangle_area(length, width))
 elif shape == "triangle":
     base = float(input("Enter the base length: "))
