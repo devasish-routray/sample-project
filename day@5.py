@@ -22,7 +22,6 @@ if shape == "square":
 elif shape == "rectangle":
     length = float(input("Enter the length: "))
     width = float(input("Enter the width: "))
-    
     print("Area of the rectangle:", rectangle_area(length, width))
 elif shape == "triangle":
     base = float(input("Enter the base length: "))
@@ -32,6 +31,7 @@ elif shape == "circle":
     radius = float(input("Enter the radius: "))
     print("Area of the circle:", circle_area(radius))
 else:
-    print("Invalid shape entered.")
+    print("Invalid shape entered.")  
+    
     
 
