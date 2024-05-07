@@ -13,3 +13,5 @@ num = int(input("Enter a number: "))
 print("Reversed number:", reverse_number(num))
 
 
+
+
